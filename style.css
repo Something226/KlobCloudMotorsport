@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  color: #ec33de;
+  padding: 30px;
+}
+
+footer {
+  background-color: #ec33de;
+}
+
+.links {
+  background-color: #bdbdbd;
+}
+
+.linkslist {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.linkslist li a:hover {
+  color: #ec33de;
+}
+
+.linkslist li a {
+  text-decoration: none;
+  color: black;
+  font-size: 100%;
+}
