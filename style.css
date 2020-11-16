@@ -9,11 +9,11 @@
  }
 
 h1 {
-  color: #bc14dd;
+  color: #8a03a5;
 }
 
 h2 {
-  color: #bdbdbd;
+  color: #8a03a5;
 }
 
 .top {
@@ -40,7 +40,7 @@ h2 {
 }
 
 .social a {
-  color: #bc14dd;
+  color: #8a03a5;
   font-size: 1.8em;
 }
 
@@ -57,7 +57,7 @@ h2 {
 }
 
 .links a:hover {
-  color: #bc14dd;
+  color: #8a03a5;
 }
 
 .links a {
@@ -77,11 +77,23 @@ footer {
 
 .footer-info {
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+}
+
+.footer-left {
+  display: flex;
+   flex-direction: column;
+   justify-content: space-between ;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .footer-left p {
   color: #bdbdbd;
+}
+
+.footer-left nav a {
+  color: #8a03a5;
 }
 
 .footer-right {
