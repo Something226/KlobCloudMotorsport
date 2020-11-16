@@ -1,26 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Orbitron", sans-serif;
-}
+  box-sizing: border-box;
+ }
 
-header h1 {
+h1 {
   color: #bc14dd;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  background-image: repeating-linear-gradient(
-    to right,
-    white,
-    #bc14dd,
-    #bc14dd,
-    #bc14dd,
-    white
-  );
+h2 {
+  color: #bdbdbd;
 }
 
 .top {
@@ -59,7 +52,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  padding: 10px;
+  padding: 0.9em;
   background-color: #bdbdbd;
 }
 
@@ -71,4 +64,35 @@ footer {
   text-decoration: none;
   color: black;
   font-size: 100%;
+}
+
+.placeholder p {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #303030;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.footer-left p {
+  color: #bdbdbd;
+}
+
+.footer-right {
+  background-color: #bdbdbd;
+  border-radius: 5em;
+  height: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footer-right img {
+  height: 100%;
+  width: 15em;
 }
