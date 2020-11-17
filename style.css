@@ -89,20 +89,40 @@ main {
 }
 
 .homepage-info-top p {
+  margin: auto 0;
   font-size: 1.25rem;
 }
 
 .homepage-info-top img {
   object-fit: cover;
   height: 100%;
-  width: 50%;
+  width: 50vw;
   border-bottom-right-radius: 1vw;
   border-top-right-radius: 1vw;
-
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  border: solid #8a03a5 0.5vh;
+  background-color: white;
+  border-radius: 1vh;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 2vh;
+}
 
+.button a {
+  text-align: center;
+  padding: 1vw;
+  font-size: 1.5rem;
+  width: 100vh;
+  text-decoration: none;
+  color: #555555;
+}
+
+.button a:hover {
+  color: #8a03a5;
 }
 
 .homepage-video {
@@ -129,13 +149,14 @@ main {
 }
 
 .homepage-info-bot p {
+  margin: auto 0;
   font-size: 1.25rem;
 }
 
 .homepage-info-bot img {
   object-fit: cover;
   height: 100%;
-  width: 46%;
+  width: 50vw;
   border-bottom-left-radius: 1vw;
   border-top-left-radius: 1vw;
 }
@@ -187,5 +208,8 @@ footer {
   }
   .links a {
     font-size: 0.9rem;
+  }
+  .button a{
+    font-size: 0.75rem;
   }
 }
