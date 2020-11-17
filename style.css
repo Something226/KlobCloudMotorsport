@@ -77,7 +77,8 @@ h2 {
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 2em;
-  background-color: #bdbdbd;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(189,189,189,1) 15%, rgba(189,189,189,1) 50%, rgba(189,189,189,1) 85%, rgba(255,255,255,1) 100%);
 }
 
 .homepage-info-top p {
