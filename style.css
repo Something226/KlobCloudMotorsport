@@ -6,6 +6,7 @@
   padding: 0;
   font-family: "Orbitron", sans-serif;
   box-sizing: border-box;
+  font-size: 16px;
  }
 
 h1 {
@@ -19,7 +20,7 @@ h2 {
 .top {
   display: flex;
   justify-content: space-between;
-  padding: 4em;
+  padding: 4rem;
   background-image: url(Pictures/dirtrally2.jpg);
   background-size: 130%;
   background-repeat: no-repeat;
@@ -27,21 +28,21 @@ h2 {
 }
 
 .top img {
-  width: 14em;
+  width: 14rem;
   height: 100%;
 }
 
 .social {
   display: flex;
   justify-content: space-evenly;
-  width: 20em;
-  margin-top: 9em;
+  width: 20rem;
+  margin-top: 9rem;
   margin-right: 2%;
 }
 
 .social a {
   color: #8a03a5;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .social a:hover {
@@ -51,8 +52,7 @@ h2 {
 .links {
   display: flex;
   justify-content: space-evenly;
-  list-style-type: none;
-  padding: 0.9em;
+  padding: 0.9rem;
   background-color: #bdbdbd;
 }
 
@@ -66,6 +66,10 @@ h2 {
   font-size: 100%;
 }
 
+main {
+  background-color: #555555;
+}
+
 .homepage-info p {
   font-family: "Catamaran", sans-serif;
   font-weight: 600;
@@ -73,45 +77,67 @@ h2 {
 
 .homepage-info-top {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding: 2em;
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(189,189,189,1) 15%, rgba(189,189,189,1) 50%, rgba(189,189,189,1) 85%, rgba(255,255,255,1) 100%);
+  justify-content: center;
+  background-color: white;
+  width: ;
+  border-bottom-left-radius: 1vw;
+  border-top-left-radius: 1vw;
 }
 
 .homepage-info-top p {
-  align-self: center;
-  font-size: 1.5em;
-  width: 25em;
+  align-items: center;
+  font-size: 1rem;
+  width: 20vw;
 }
 
 .homepage-info-top img {
   height: 100%;
-  width: 50em;
+  width: 50vw;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+}
+
+.button {
+
 }
 
 .homepage-video {
   width: 100%;
-  height: 35em;
+  height: 35vh;
   display: flex;
   justify-content: center;
 }
 
 .homepage-video iframe {
-  width: 50%;
+  width: 49.5%;
   height: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
 }
 
 .homepage-info-bot {
   display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
+.homepage-info-bot p {
+  font-size: 1.5rem;
+  width: 40rem;
+  border: solid 0.2rem white;
+  background-color: white;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .homepage-info-bot img {
-  height: 50em;
-  width: 100%;
+  height: 100%;
+  width: 46rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 
 footer {
@@ -127,8 +153,8 @@ footer {
   display: flex;
    flex-direction: column;
    justify-content: space-between ;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer-left p {
@@ -141,13 +167,13 @@ footer {
 
 .footer-right {
   background-color: #bdbdbd;
-  border-radius: 5em;
+  border-radius: 5rem;
   height: 50%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer-right img {
   height: 100%;
-  width: 15em;
+  width: 15rem;
 }
