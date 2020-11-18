@@ -11,10 +11,20 @@
 
 h1 {
   color: #8a03a5;
+  font-size: 2rem;
+  margin: 1vh;
 }
 
 h2 {
   color: #8a03a5;
+  font-size: 2rem;
+  margin: auto;
+}
+
+li {
+  margin: 2vh;
+  font-size: 1.5rem;
+  list-style-type: none;
 }
 
 .top {
@@ -91,12 +101,12 @@ main {
 .page-info-top p {
   margin: auto 0;
   font-size: 1.25rem;
-  text-align: justify;
+  text-align: center;
   
 }
 
 .page-info-top img {
-  object-fit: fit;
+  object-fit: cover;
   height: 100%;
   width: 50vw;
   border-bottom-right-radius: 1vw;
@@ -181,6 +191,45 @@ main {
 
 .driverlinks a {
   font-size: 1rem;
+  color: #555555;
+}
+
+.driverlinks a:hover {
+  color: #8a03a5;
+}
+
+.drivercontent {
+  display: flex;
+  flex-direction: column;
+  align-items: Center;
+}
+
+#Driver1 {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  text-align: center;
+}
+
+#Driver1 img {
+  width: 20vw;
+  height: 100%;
+}
+
+#Driver2 {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  text-align: center;
+}
+
+#Driver2 img {
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 20vw;
+  height: 100%;
 }
 
 footer {
@@ -222,6 +271,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+  li {
+    font-size: 0.75rem;
+  }
   .page-info-bot p {
     font-size: 0.9rem;
   }
@@ -235,9 +287,9 @@ footer {
     font-size: 0.75rem;
   }
   #Driver1 p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   #Driver2 p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }
