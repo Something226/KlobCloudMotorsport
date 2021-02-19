@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
   font-family: "Orbitron", sans-serif;
   box-sizing: border-box;
   font-size: 16px;
- }
+}
 
 h1 {
   color: #8a03a5;
@@ -31,7 +31,7 @@ li {
   display: flex;
   justify-content: space-between;
   padding: 4rem;
-  background-image: url(Pictures/dirtrally2.jpg);
+  background-image: url(pictures/dirtrally2.jpg);
   background-size: 130%;
   background-repeat: no-repeat;
   background-position: 10%;
@@ -102,7 +102,6 @@ main {
   margin: auto 0;
   font-size: 1.25rem;
   text-align: center;
-  
 }
 
 .page-info-top img {
@@ -166,7 +165,7 @@ main {
 }
 
 .page-info-bot img {
-  object-fit: cover ;
+  object-fit: cover;
   height: 100%;
   width: 50vw;
   border-bottom-left-radius: 1vw;
@@ -178,7 +177,7 @@ main {
   flex-direction: column;
   text-align: center;
   background-color: white;
-  margin: 2vh  auto;
+  margin: 2vh auto;
   padding: 1vh;
   width: 50vw;
   border-radius: 1vw;
@@ -243,8 +242,8 @@ footer {
 
 .footer-left {
   display: flex;
-   flex-direction: column;
-   justify-content: space-between ;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -283,7 +282,7 @@ footer {
   .links a {
     font-size: 0.9rem;
   }
-  .button a{
+  .button a {
     font-size: 0.75rem;
   }
   #Driver1 p {
